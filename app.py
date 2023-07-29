@@ -9,7 +9,8 @@ st.title("Sentiment Analysis")
 # Load the data (similar to creating a dataframe)
 #var = pd.read_table("C:\Users\YASHWANTH ADMIN\OneDrive\Documents\coding\Restaurant_Reviews (1).tsv")
 # Load the data (using forward slashes in the path)
-var = pd.read_table("C:/Users/YASHWANTH ADMIN/OneDrive/Documents/coding/Restaurant_Reviews (1).tsv")
+var = pd.read_table('Restaurant_Reviews (1).tsv')
+#("C:/Users/YASHWANTH ADMIN/OneDrive/Documents/coding/Restaurant_Reviews (1).tsv")
 # Divide data into input and output
 x = var.Review     # input
 y = var.Liked      # output
